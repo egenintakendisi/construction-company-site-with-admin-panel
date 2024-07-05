@@ -1,0 +1,6 @@
+navbarda :
+mail / adres / Calisma saati
+footerda : 
+© 2024 Şirket Adı. Tüm hakları saklıdır. /facebook / twitter / instagram / linkedin
+
+javascrıpttekı anımasyonlu cıkma olayı aclısmıyo.

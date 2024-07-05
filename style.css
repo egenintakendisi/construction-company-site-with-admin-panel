@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item i {
+    margin-right: 8px;
+}
+
+.separator {
+    color: white;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.info-item.right {
+    margin-left: auto;
+}
+
+#header {
+    width: 100%;
+    background: #333;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar ul li {
+    margin: 0 1em;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#navbar {
+    transition: all 0.3s ease;
+}
+
+.sticky #navbar {
+    background-color: #555; /* Örnek olarak arka plan rengi değiştirilebilir */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.foto{
+    background-image:url("https://www.aktas-crepi.fr/wp-content/uploads/2023/09/FEGERSHEIM-4.png");
+    background-size: cover; 
+    height: 400px;
+}
+
+
+.rowbtn{
+    background-color: red;
+    color: white;
+    border : none;
+    height: 80px;
+    width: 80px;
+}
+
+.fotoa{
+    background-color: white;
+    height: 300px;
+}
+
+
